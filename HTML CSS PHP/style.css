@@ -1,0 +1,44 @@
+body {
+    background-color: #ECE2DA;
+    font-family: "syne", sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 383px;
+    height: 61px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 237px;
+}
+
+.contact-form input[type="submit"] {
+    width: 198px;
+    height: 55px;
+    background-color: #E0B9B4;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
+    /* Centrage horizontal du bouton */
+    display: block;
+}
