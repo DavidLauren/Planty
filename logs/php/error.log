@@ -1,0 +1,2 @@
+[25-Jul-2023 13:28:11 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[25-Jul-2023 13:28:16 UTC] Erreur d’événement de replanification de tâche pour le crochet wpforms_email_summaries_cron. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"wpforms_email_summaries_weekly","args":[],"interval":604800}

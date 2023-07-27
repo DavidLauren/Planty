@@ -1,0 +1,330 @@
+/*
+Theme Name: BlankSlate Child
+Theme URI: https://github.com/tidythemes/blankslate
+Template: blankslate
+Author: TidyThemes
+Author URI: http://tidythemes.com/
+Description: Please read: tidythemes.com/concept. Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.
+Tags: accessibility-ready,one-column,two-columns,custom-menu,featured-images,microformats,sticky-post,threaded-comments,translation-ready
+Version: 2022.4.1666989401
+Updated: 2022-10-28 20:36:41
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+.hfe-nav-menu {
+    display: flex;
+}
+
+.hfe-nav-menu li:nth-child(2) {
+    order: 3;
+    margin-right: 0 !important;
+    color: #FFFFFF;
+    background-color: #DC9F96;
+    border-style: none;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.hfe-nav-menu__layout-horizontal .hfe-nav-menu li:nth-child(2) a {
+    color: #FFFFFF !important;
+}
+
+.hfe-nav-menu li:nth-child(3) {
+    order: 2;
+}
+
+.hfe-nav-menu li:nth-child(3) a {
+    padding: 20px 50px;
+}
+
+
+/*header*/
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 0px;
+}
+
+header {
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*lien Admin*/
+
+.hfe-nav-menu .lienAdmin a {
+    color: black;
+    font-size: 16px;
+    font-family: syne;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.menu li {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.menuWhite a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menuWhite a:hover {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.menuColor {
+    background-color: #DC9F96;
+    width: 236px;
+    text-align: center;
+}
+
+.menuColor a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.menuColor:hover {
+    background-color: #C02E44;
+}
+
+
+/*bouton commander*/
+
+.quantity {
+    margin-top: 7px;
+    padding-left: 25px;
+    width: 65px;
+    height: 56px;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 5px !important;
+    border: none;
+}
+
+.btns {
+    background-color: #DC9F96 !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 5px !important;
+    height: 28px;
+    width: 50px;
+    border: 1px solid #DC9F96;
+}
+
+.btns:first-child {
+    border-bottom: 1px solid white;
+}
+
+.both-btns {
+    width: 31px;
+    height: 56px;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-ok {
+    background-color: #E0B9B4 !important;
+    border-radius: 7px !important;
+    margin-top: 7px;
+    width: 100px;
+    height: 57px;
+    margin-left: 30px;
+    border: none;
+}
+
+.qqt-2 {
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    margin: 0%;
+    padding: 0%;
+}
+
+header img {
+    width: 192px;
+    margin: 31px 0px 0px 37px;
+}
+
+.menuWhite {
+    order: -1;
+}
+
+.temoins .wpr-team-member {
+    display: flex;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+
+/* réglge formulaire livraison */
+
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .wpcf7-form,
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .nf-field-container label,
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .wpforms-field-label,
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .wpforms-image-choices-label,
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .wpforms-field-label-inline,
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .wpforms-captcha-question,
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .wpforms-captcha-equation,
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .wpforms-payment-total,
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .caldera-grid .control-label,
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .caldera-forms-summary-field ul li,
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .caldera-grid .total-line,
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .caldera-grid .checkbox label,
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .caldera-grid .radio label,
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .caldera-grid .caldera-forms-gdpr-field-label,
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .wpr-forms-container .wpforms-confirmation-container-full,
+.elementor-2079 .elementor-element.elementor-element-6ea53e04 .wpr-forms-container .nf-response-msg {
+    padding-top: 20px;
+}
+
+.elementor-2079 .elementor-element.elementor-element-a6964c7{
+	height:2px;
+}
+
+@media screen and (max-width: 720px) {
+    header {
+        flex-direction: column;
+    }
+    header img {
+        margin: 10% auto 10% auto;
+    }
+    .menu {
+        display: none;
+    }
+    .menu-mobile {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: #DC9F96;
+    }
+    .elementor-72 .elementor-element.elementor-element-78f4c36 img {
+        display: none;
+    }
+    .elementor-72 .elementor-element.elementor-element-899d2da img {
+        display: none;
+    }
+}
+
+.elementor-72 .elementor-element.elementor-element-3a7eb72 img {
+    display: none
+}
+
+.elementor-72 .elementor-element.elementor-element-b92b803 {
+    padding: 15px
+}
+
+.menu-mobile a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.menu-mobile a:hover {
+    font-weight: 700;
+    font-size: 13px;
+    color: #C02E44;
+}
+
+.mobile-admin {
+    padding-left: 3%;
+    padding-right: 3%;
+    border-left: 1px solid #C02E44;
+}
+
+.e-con.e-con>.e-con-inner>.elementor-widget,
+.elementor.elementor .e-con>.elementor-widget {
+    padding: 0px;
+}
+
+div.wpforms-container-full .wpforms-form input[type=date],
+div.wpforms-container-full .wpforms-form input[type=datetime],
+div.wpforms-container-full .wpforms-form input[type=datetime-local],
+div.wpforms-container-full .wpforms-form input[type=email],
+div.wpforms-container-full .wpforms-form input[type=month],
+div.wpforms-container-full .wpforms-form input[type=number],
+div.wpforms-container-full .wpforms-form input[type=password],
+div.wpforms-container-full .wpforms-form input[type=range],
+div.wpforms-container-full .wpforms-form input[type=search],
+div.wpforms-container-full .wpforms-form input[type=tel],
+div.wpforms-container-full .wpforms-form input[type=text],
+div.wpforms-container-full .wpforms-form input[type=time],
+div.wpforms-container-full .wpforms-form input[type=url],
+div.wpforms-container-full .wpforms-form input[type=week],
+div.wpforms-container-full .wpforms-form select,
+div.wpforms-container-full .wpforms-form textarea {
+    border-radius: 7px;
+}
+
+
+/*bouton + - ok*/
+
+div.wpforms-container-full .wpforms-form input[type=submit],
+div.wpforms-container-full .wpforms-form button[type=submit],
+div.wpforms-container-full .wpforms-form .wpforms-page-button {
+    background-color: #E0B9B4;
+    color: white;
+    font-family: syne;
+    display: flex;
+    width: 198px;
+    height: 55px;
+    padding: 9px 57px 9px 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+/*bouton commander en bas*/
+
+div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+    padding-top: 50px !important;
+}
+
+.elementor-2079 .elementor-element.elementor-element-7061869f>.elementor-background-overlay {
+    font-family: syne;
+}
+
+#copyright {
+    display: none
+}
+
+#search {
+    display: none
+}
+
+
+/* ligne de separation */
+
+.vertical-line {
+    display: flex;
+    position: relative;
+    bottom: 610px;
+    margin-left: 720px;
+    height: 420px;
+    width: 1px;
+    border-right: 1px solid rgb(253, 251, 251);
+    background-color: green;
+}
